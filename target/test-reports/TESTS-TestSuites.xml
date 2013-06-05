@@ -1,22 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="1" hostname="purnachandra-b" id="0" name="UserIntegrationTests" package="com.grailsinaction" tests="5" time="0.117" timestamp="2013-06-04T12:21:24">
+  <testsuite errors="0" failures="0" hostname="gouthami-PC" id="0" name="PostIntegrationTests" package="com.grailsinaction" tests="3" time="0.231" timestamp="2013-06-05T01:02:14">
       <properties />
 
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveUser" time="0.019" />
+      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testSomething" time="0.074" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveAndUpdate" time="0.01" />
+      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testPostWithTags" time="0.057" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveAndDelete" time="0.01" />
+      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testAccessingPosts" time="0.061" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testValidation" time="0.016" />
+      <system-out><![CDATA[--Output from testSomething--
+--Output from testPostWithTags--
+--Output from testAccessingPosts--
+]]></system-out>
 
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testUseridPasswordNotSame" time="0.052">
-          <failure message="java.lang.AssertionError" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: java.lang.AssertionError
-	at com.grailsinaction.UserIntegrationTests.testUseridPasswordNotSame(UserIntegrationTests.groovy:64)
-</failure>
+      <system-err><![CDATA[--Output from testSomething--
+--Output from testPostWithTags--
+--Output from testAccessingPosts--
+]]></system-err>
 
-      </testcase>
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="gouthami-PC" id="1" name="UserIntegrationTests" package="com.grailsinaction" tests="5" time="0.095" timestamp="2013-06-05T01:02:14">
+      <properties />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveUser" time="0.016" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveAndUpdate" time="0.018" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveAndDelete" time="0.025" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testValidation" time="0.012" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testUseridPasswordNotSame" time="0.009" />
 
       <system-out><![CDATA[--Output from testSaveUser--
 --Output from testSaveAndUpdate--
@@ -30,6 +45,74 @@
 --Output from testSaveAndDelete--
 --Output from testValidation--
 --Output from testUseridPasswordNotSame--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="gouthami-PC" id="2" name="PostTests" package="com.grailsinaction" tests="1" time="0.268" timestamp="2013-06-05T01:02:09">
+      <properties />
+
+      <testcase classname="com.grailsinaction.PostTests" name="testSomething" time="0.153">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at com.grailsinaction.PostTests.testSomething(PostTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="gouthami-PC" id="3" name="ProfileTests" package="com.grailsinaction" tests="1" time="0.221" timestamp="2013-06-05T01:02:10">
+      <properties />
+
+      <testcase classname="com.grailsinaction.ProfileTests" name="testSomething" time="0.121">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at com.grailsinaction.ProfileTests.testSomething(ProfileTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="gouthami-PC" id="4" name="TagTests" package="com.grailsinaction" tests="1" time="0.24" timestamp="2013-06-05T01:02:10">
+      <properties />
+
+      <testcase classname="com.grailsinaction.TagTests" name="testSomething" time="0.118">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at com.grailsinaction.TagTests.testSomething(TagTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="gouthami-PC" id="5" name="UserTests" package="com.grailsinaction" tests="1" time="0.127" timestamp="2013-06-05T01:02:10">
+      <properties />
+
+      <testcase classname="com.grailsinaction.UserTests" name="testSomething" time="0.125">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at com.grailsinaction.UserTests.testSomething(UserTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
 ]]></system-err>
 
   </testsuite>

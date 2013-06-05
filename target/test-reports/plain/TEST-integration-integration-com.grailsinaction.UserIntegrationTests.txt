@@ -1,5 +1,5 @@
 Testsuite: com.grailsinaction.UserIntegrationTests
-Tests run: 5, Failures: 1, Errors: 0, Time elapsed: 0.117 sec
+Tests run: 5, Failures: 0, Errors: 0, Time elapsed: 0.095 sec
 ------------- Standard Output ---------------
 --Output from testSaveUser--
 --Output from testSaveAndUpdate--
@@ -15,13 +15,8 @@ Tests run: 5, Failures: 1, Errors: 0, Time elapsed: 0.117 sec
 --Output from testUseridPasswordNotSame--
 ------------- ---------------- ---------------
 
-Testcase: testSaveUser took 0.019 sec
-Testcase: testSaveAndUpdate took 0.01 sec
-Testcase: testSaveAndDelete took 0.01 sec
-Testcase: testValidation took 0.016 sec
-Testcase: testUseridPasswordNotSame took 0.052 sec
-	FAILED
-java.lang.AssertionError
-junit.framework.AssertionFailedError: java.lang.AssertionError
-	at com.grailsinaction.UserIntegrationTests.testUseridPasswordNotSame(UserIntegrationTests.groovy:64)
-
+Testcase: testSaveUser took 0.016 sec
+Testcase: testSaveAndUpdate took 0.018 sec
+Testcase: testSaveAndDelete took 0.026 sec
+Testcase: testValidation took 0.012 sec
+Testcase: testUseridPasswordNotSame took 0.009 sec
