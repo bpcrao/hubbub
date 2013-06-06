@@ -12,6 +12,15 @@
   <title></title>
 </head>
 <body>
-
+<div class="profilePic">
+    <%  def profile = user.profile %>
+    <g:if test="${profile.photo}">
+        <img src=" <g:createLink controller='image'
+              action='renderImage' id="${user.userId}"/>
+        "/>
+    </g:if>
+    <p>Profile for <strong>${profile.fullName}</strong></p>
+    <p>Bio: ${profile.bio}</p>
+</div>
 </body>
 </html>

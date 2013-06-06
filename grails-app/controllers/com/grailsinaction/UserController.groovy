@@ -25,6 +25,6 @@ class UserController {
 
     def profile={
         def user = User.findByUserId(params.id)
-       render (view:  "profile" , model:[profile: user.profile] )
+       render (view:  "profile" , model:[user: user] )
     }
 }
