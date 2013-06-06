@@ -28,7 +28,11 @@
 <h1>Timeline for ${user.profile.fullName}</h1>
 <br>
 <div class="allPosts">
-    <g:each in="${user.posts}" var="post">
+    <% def thePosts = user.posts.sort{a,b->
+        b.dateCreated<=>a.dateCreated
+
+    } %>
+    <g:each in="${thePosts}" var="post">
         <div class="postEntry">
             <div class="postText">
                 ${post.content}
