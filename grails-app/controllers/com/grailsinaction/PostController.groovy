@@ -2,6 +2,7 @@ package com.grailsinaction
 
 class PostController {
     def scaffold = true
+    def postService
 
     def timeline = {
         def user = User.findByUserId(params.id)
@@ -9,15 +10,13 @@ class PostController {
     }
 
     def addPost={
-        def user = User.findByUserId(params.id)
-        Post post = new Post(params)
-        user.addToPosts(post)
-        if (user.save()){
-            flash.message="Posted message successfully"
-        }        else{
-            flash.message="Invalid post"
-        }
 
-        redirect(action: 'timeline', id: params.id)
+        def post = postService.createPost(params.id,params.content)
+        if (post){
+            flash.message="Successfully posted"
+        }                                     else{
+            flash.message="post invalid"
+        }
+         redirect(action: 'timeline', id: params.id)
     }
 }

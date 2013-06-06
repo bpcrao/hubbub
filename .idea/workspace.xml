@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5f56788-b216-40ce-9e99-80fb5c28fcca" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/post/timeline.gsp" afterPath="$PROJECT_DIR$/grails-app/views/post/timeline.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/com/grailsinaction/PostController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/com/grailsinaction/PostController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/com/grailsinaction/PostService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/com/grailsinaction/PostService.groovy" />
     </list>
     <ignored path="hubbub.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,10 +78,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PostController.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PostController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/grailsinaction/PostController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="47" selection-start="144" selection-end="144" vertical-scroll-proportion="0.13212435">
+            <state line="13" column="35" selection-start="282" selection-end="282" vertical-scroll-proportion="-9.608696">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostService.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/services/com/grailsinaction/PostService.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="26" selection-start="623" selection-end="623" vertical-scroll-proportion="0.55597484">
               <folding />
             </state>
           </provider>
@@ -130,15 +141,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataSource.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="30" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="search.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/profile/search.gsp">
           <provider selected="true" editor-type-id="text-editor">
@@ -157,15 +159,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TagController.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/grailsinaction/TagController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="6" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -179,7 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/domain/com/grailsinaction/Post.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/grailsinaction/Profile.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/grailsinaction/Tag.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
@@ -195,6 +187,7 @@
         <option value="$PROJECT_DIR$/grails-app/views/profile/search.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/post/timeline.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/grailsinaction/PostController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/services/com/grailsinaction/PostService.groovy" />
       </list>
     </option>
   </component>
@@ -559,19 +552,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/grailsinaction/User.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="31" selection-start="570" selection-end="570" vertical-scroll-proportion="-6.9069767" />
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/integration/com/grailsinaction/UserIntegrationTests.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="728" selection-end="728" vertical-scroll-proportion="-8.869565" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/integration/hubbub/QueryIntegrationTests.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="13" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.0" />
@@ -660,9 +640,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="375" column="18" selection-start="15698" selection-end="15698" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/grailsinaction/PostController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="47" selection-start="144" selection-end="144" vertical-scroll-proportion="0.13212435">
+        <state line="13" column="35" selection-start="282" selection-end="282" vertical-scroll-proportion="-9.608696">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/services/com/grailsinaction/PostService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="26" selection-start="623" selection-end="623" vertical-scroll-proportion="0.55597484">
           <folding />
         </state>
       </provider>
