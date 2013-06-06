@@ -11,11 +11,12 @@ class PostController {
 
     def addPost={
 
+        try{
         def post = postService.createPost(params.id,params.content)
-        if (post){
             flash.message="Successfully posted"
-        }                                     else{
-            flash.message="post invalid"
+        }
+        catch(PostException e){
+            flash.message=e.getMessage()
         }
          redirect(action: 'timeline', id: params.id)
     }
