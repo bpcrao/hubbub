@@ -8,6 +8,7 @@ class Profile {
 	String homepage
 	String email
 	String timezone
+    String skin
 
     @Override
     public String toString() {
@@ -30,6 +31,7 @@ class Profile {
 		country(nullable: true)
 		timezone(nullable: true)
 		jabberAddress(email: true, nullable: true)
+        skin(nullable: true, blank: true, inList: ['blues', 'backle'])
 	}
 
 

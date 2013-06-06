@@ -12,6 +12,7 @@ class UserController {
     }
 
     def register = {
+        if(params){
         def user = new User(params)
         if (user.validate()) {
             user.save()
@@ -21,10 +22,16 @@ class UserController {
             flash.message = "Error Registering User"
             return [ user: user ]
         }
+        }
     }
 
     def profile={
         def user = User.findByUserId(params.id)
        render (view:  "profile" , model:[user: user] )
     }
+
+    static navigation = [
+            [group:'tabs', action:'search', order: 90],
+            [action: 'register', order: 99, isVisible: { true }]
+    ]
 }

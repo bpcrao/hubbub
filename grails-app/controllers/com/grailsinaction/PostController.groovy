@@ -20,4 +20,8 @@ class PostController {
         }
          redirect(action: 'timeline', id: params.id)
     }
+
+    static navigation = [
+            [group:'tabs', action:'timeline', title: 'My Timeline', order: 0],
+    ]
 }

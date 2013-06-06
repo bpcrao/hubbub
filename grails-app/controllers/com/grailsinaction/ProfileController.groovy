@@ -3,7 +3,7 @@ package com.grailsinaction
 class ProfileController {
     def scaffold = true
 
-    def search = {
+    def advsearch = {
     }
 
     def results = {
@@ -22,4 +22,9 @@ class ProfileController {
         }
         return [ profiles : profiles ]
     }
+
+
+    static navigation = [
+            [group:'tabs', action:'advsearch', order: 90],
+    ]
 }

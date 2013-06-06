@@ -4,6 +4,12 @@
         Timeline for ${user.profile.fullName}
     </title>
     <meta name="layout" content="main"/>
+    <g:if test="${user.profile.skin}">
+        <link rel="stylesheet" href="
+        <g:createLinkTo dir='css'
+                        file='${user.profile.skin}.css'/>
+        "/>
+    </g:if>
 </head>
 <body>
 <div id="newPost">
