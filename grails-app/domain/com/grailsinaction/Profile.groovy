@@ -8,7 +8,17 @@ class Profile {
 	String homepage
 	String email
 	String timezone
-	String country
+
+    @Override
+    public String toString() {
+        return "Profile{" +
+                ", fullName='" + fullName + '\'' +
+                ", email='" + email + '\'' +
+                ", country='" + country + '\'' +
+                '}';
+    }
+
+    String country
 	String jabberAddress
 
 	static constraints = {

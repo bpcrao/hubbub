@@ -1,3 +1,0 @@
---Output from testSomething--
---Output from testPostWithTags--
---Output from testAccessingPosts--

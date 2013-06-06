@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="gouthami-PC" id="0" name="PostIntegrationTests" package="com.grailsinaction" tests="3" time="0.231" timestamp="2013-06-05T01:02:14">
+  <testsuite errors="0" failures="0" hostname="purnachandra-b" id="0" name="PostIntegrationTests" package="com.grailsinaction" tests="3" time="0.109" timestamp="2013-06-05T10:08:23">
       <properties />
 
-      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testSomething" time="0.074" />
+      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testSomething" time="0.03" />
 
-      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testPostWithTags" time="0.057" />
+      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testPostWithTags" time="0.016" />
 
-      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testAccessingPosts" time="0.061" />
+      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testAccessingPosts" time="0.057" />
 
       <system-out><![CDATA[--Output from testSomething--
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where this_.user_id=?
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where this_.user_id=?
+Hibernate: insert into user (id, version, date_created, homepage, password, profile_id, user_id) values (null, ?, ?, ?, ?, ?, ?)
 --Output from testPostWithTags--
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where this_.user_id=?
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where this_.user_id=?
+Hibernate: insert into user (id, version, date_created, homepage, password, profile_id, user_id) values (null, ?, ?, ?, ?, ?, ?)
 --Output from testAccessingPosts--
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where this_.user_id=?
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where this_.user_id=?
+Hibernate: insert into user (id, version, date_created, homepage, password, profile_id, user_id) values (null, ?, ?, ?, ?, ?, ?)
 ]]></system-out>
 
       <system-err><![CDATA[--Output from testSomething--
@@ -20,24 +29,38 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="gouthami-PC" id="1" name="UserIntegrationTests" package="com.grailsinaction" tests="5" time="0.095" timestamp="2013-06-05T01:02:14">
+  <testsuite errors="0" failures="0" hostname="purnachandra-b" id="1" name="UserIntegrationTests" package="com.grailsinaction" tests="5" time="0.075" timestamp="2013-06-05T10:08:23">
       <properties />
 
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveUser" time="0.016" />
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveUser" time="0.014" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveAndUpdate" time="0.018" />
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveAndUpdate" time="0.013" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveAndDelete" time="0.025" />
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveAndDelete" time="0.012" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testValidation" time="0.012" />
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testValidation" time="0.016" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testUseridPasswordNotSame" time="0.009" />
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testUseridPasswordNotSame" time="0.0080" />
 
       <system-out><![CDATA[--Output from testSaveUser--
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where this_.user_id=?
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where this_.user_id=?
+Hibernate: insert into user (id, version, date_created, homepage, password, profile_id, user_id) values (null, ?, ?, ?, ?, ?, ?)
 --Output from testSaveAndUpdate--
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where this_.user_id=?
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where this_.user_id=?
+Hibernate: insert into user (id, version, date_created, homepage, password, profile_id, user_id) values (null, ?, ?, ?, ?, ?, ?)
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where this_.user_id=?
 --Output from testSaveAndDelete--
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where this_.user_id=?
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where this_.user_id=?
+Hibernate: insert into user (id, version, date_created, homepage, password, profile_id, user_id) values (null, ?, ?, ?, ?, ?, ?)
+Hibernate: delete from user where id=? and version=?
+Hibernate: select count(*) as y0_ from user this_ where this_.id = ?
 --Output from testValidation--
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where this_.user_id=?
 --Output from testUseridPasswordNotSame--
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where this_.user_id=?
 ]]></system-out>
 
       <system-err><![CDATA[--Output from testSaveUser--
@@ -48,71 +71,43 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="1" hostname="gouthami-PC" id="2" name="PostTests" package="com.grailsinaction" tests="1" time="0.268" timestamp="2013-06-05T01:02:09">
+  <testsuite errors="0" failures="0" hostname="purnachandra-b" id="2" name="QueryIntegrationTests" package="hubbub" tests="2" time="0.084" timestamp="2013-06-05T10:08:23">
       <properties />
 
-      <testcase classname="com.grailsinaction.PostTests" name="testSomething" time="0.153">
-          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
-	at com.grailsinaction.PostTests.testSomething(PostTests.groovy:15)
-</failure>
+      <testcase classname="hubbub.QueryIntegrationTests" name="testBasicDynamicFinders" time="0.043" />
 
-      </testcase>
+      <testcase classname="hubbub.QueryIntegrationTests" name="testQueryByExample" time="0.037" />
 
-      <system-out><![CDATA[--Output from testSomething--
+      <system-out><![CDATA[--Output from testBasicDynamicFinders--
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where this_.user_id=?
+Hibernate: insert into profile (id, version, bio, country, email, full_name, homepage, jabber_address, photo, timezone) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where this_.user_id=?
+Hibernate: insert into user (id, version, date_created, homepage, password, profile_id, user_id) values (null, ?, ?, ?, ?, ?, ?)
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where this_.user_id=?
+Hibernate: insert into profile (id, version, bio, country, email, full_name, homepage, jabber_address, photo, timezone) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where this_.user_id=?
+Hibernate: insert into user (id, version, date_created, homepage, password, profile_id, user_id) values (null, ?, ?, ?, ?, ?, ?)
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where this_.password=? limit ?
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where this_.user_id=? and this_.password=? limit ?
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where this_.date_created between ? and ?
+Hibernate: select this_.id as id175_0_, this_.version as version175_0_, this_.bio as bio175_0_, this_.country as country175_0_, this_.email as email175_0_, this_.full_name as full6_175_0_, this_.homepage as homepage175_0_, this_.jabber_address as jabber8_175_0_, this_.photo as photo175_0_, this_.timezone as timezone175_0_ from profile this_ where this_.email is not null
+--Output from testQueryByExample--
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where this_.user_id=?
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where this_.user_id=?
+Hibernate: insert into user (id, version, date_created, homepage, password, profile_id, user_id) values (null, ?, ?, ?, ?, ?, ?)
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where this_.user_id=?
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where this_.user_id=?
+Hibernate: insert into user (id, version, date_created, homepage, password, profile_id, user_id) values (null, ?, ?, ?, ?, ?, ?)
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where this_.user_id=?
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where this_.user_id=?
+Hibernate: insert into user (id, version, date_created, homepage, password, profile_id, user_id) values (null, ?, ?, ?, ?, ?, ?)
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where (lower(this_.user_id)=?) limit ?
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where (lower(this_.user_id)=?) limit ?
+Hibernate: select this_.id as id173_0_, this_.version as version173_0_, this_.date_created as date3_173_0_, this_.homepage as homepage173_0_, this_.password as password173_0_, this_.profile_id as profile6_173_0_, this_.user_id as user7_173_0_ from user this_ where (lower(this_.password)=?)
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from testSomething--
-]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="1" hostname="gouthami-PC" id="3" name="ProfileTests" package="com.grailsinaction" tests="1" time="0.221" timestamp="2013-06-05T01:02:10">
-      <properties />
-
-      <testcase classname="com.grailsinaction.ProfileTests" name="testSomething" time="0.121">
-          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
-	at com.grailsinaction.ProfileTests.testSomething(ProfileTests.groovy:15)
-</failure>
-
-      </testcase>
-
-      <system-out><![CDATA[--Output from testSomething--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from testSomething--
-]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="1" hostname="gouthami-PC" id="4" name="TagTests" package="com.grailsinaction" tests="1" time="0.24" timestamp="2013-06-05T01:02:10">
-      <properties />
-
-      <testcase classname="com.grailsinaction.TagTests" name="testSomething" time="0.118">
-          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
-	at com.grailsinaction.TagTests.testSomething(TagTests.groovy:15)
-</failure>
-
-      </testcase>
-
-      <system-out><![CDATA[--Output from testSomething--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from testSomething--
-]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="1" hostname="gouthami-PC" id="5" name="UserTests" package="com.grailsinaction" tests="1" time="0.127" timestamp="2013-06-05T01:02:10">
-      <properties />
-
-      <testcase classname="com.grailsinaction.UserTests" name="testSomething" time="0.125">
-          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
-	at com.grailsinaction.UserTests.testSomething(UserTests.groovy:15)
-</failure>
-
-      </testcase>
-
-      <system-out><![CDATA[--Output from testSomething--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from testSomething--
+      <system-err><![CDATA[--Output from testBasicDynamicFinders--
+--Output from testQueryByExample--
 ]]></system-err>
 
   </testsuite>

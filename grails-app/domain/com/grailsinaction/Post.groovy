@@ -10,5 +10,15 @@ class Post {
 		profile lazy:false
 		sort dateCreated:"desc"
 	}
-	static hasMany = [ tags : Tag ]
+
+    @Override
+    public String toString() {
+        return "Post{" +
+                "content='" + content + '\'' +
+                ", dateCreated=" + dateCreated +
+                ", tags=" + tags +
+                '}';
+    }
+
+    static hasMany = [ tags : Tag ]
 }
