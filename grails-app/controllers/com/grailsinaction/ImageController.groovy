@@ -5,13 +5,15 @@ class PhotoUploadCommand {
 
 }
 class ImageController {
-
+def springSecurityService
     def index() { }
 
     def upload = { PhotoUploadCommand puc ->
-        def user = User.findByUserId(puc.userId)
+        def user = User.get(springSecurityService.principal.id)
+        print user.username
         user.profile.photo = puc.photo
-        redirect(action: 'view', id: puc.userId)
+
+        redirect(action: 'view', id: user.username)
     }
 
 
@@ -25,7 +27,7 @@ class ImageController {
 
 
     def renderImage = {
-        def user = User.findByUserId(params.id)
+        def user = User.get(springSecurityService.principal.id)
         if (user?.profile?.photo) {
             response.setContentLength(user.profile.photo.length)
             response.outputStream.write(user.profile.photo)
@@ -34,5 +36,8 @@ class ImageController {
         }
     }
 
+    static navigation = [
+            [group:'tabs', action:'form', order: 91]
 
+    ]
 }

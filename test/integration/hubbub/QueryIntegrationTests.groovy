@@ -20,7 +20,7 @@ class QueryIntegrationTests {
 
     @Test
     void testBasicDynamicFinders() {
-        def tuser = new User(userId: 'glen', password: 'secret',
+        def tuser = new User(username: 'glen', password: 'secret',
                 profile: new Profile(email: 'glen@glensmith.com'))
                 try{
                     tuser.save( failOnError:true )
@@ -29,14 +29,14 @@ class QueryIntegrationTests {
                 catch (Exception e){
                     e.printStackTrace()
                 }
-        def t1user = new User(userId: 'peter', password: 'sesame',
+        def t1user = new User(username: 'peter', password: 'sesame',
                 profile: new Profile(homepage: 'http://www.peter.com/'))
                 t1user.save( failOnError:true )
         def user = User.findByPassword('sesame')
-        assertEquals 'peter', user.userId
-        user = User.findByUserIdAndPassword('glen',
+        assertEquals 'peter', user.username
+        user = User.findByUsernameAndPassword('glen',
                 'secret')
-        assertEquals 'glen', user.userId
+        assertEquals 'glen', user.username
         def now = new Date()
         def users =
             User.findAllByDateCreatedBetween(now-1, now)
@@ -48,17 +48,17 @@ class QueryIntegrationTests {
 
 
     void testQueryByExample() {
-        new User(userId: 'glen', password: 'password').save()
-        new User(userId: 'peter', password: 'password').save()
-        new User(userId: 'cynthia', password: 'sesame').save()
-        def userToFind = new User(userId: 'glen')
+        new User(username: 'glen', password: 'password').save()
+        new User(username: 'peter', password: 'password').save()
+        new User(username: 'cynthia', password: 'sesame').save()
+        def userToFind = new User(username: 'glen')
         def u1 = User.find(userToFind)
         assertEquals('password', u1.password)
-        userToFind = new User(userId: 'cynthia')
+        userToFind = new User(username: 'cynthia')
         def u2 = User.find(userToFind)
-        assertEquals('cynthia', u2.userId)
+        assertEquals('cynthia', u2.username)
         userToFind = new User(password: 'password')
         def u3 = User.findAll(userToFind)
-        assertEquals(['glen', 'peter'], u3*.userId)
+        assertEquals(['glen', 'peter'], u3*.username)
     }
 }

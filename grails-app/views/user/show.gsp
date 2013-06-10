@@ -23,11 +23,11 @@
 			</g:if>
 			<ol class="property-list user">
 			
-				<g:if test="${userInstance?.userId}">
+				<g:if test="${userInstance?.username}">
 				<li class="fieldcontain">
-					<span id="userId-label" class="property-label"><g:message code="user.userId.label" default="User Id" /></span>
+					<span id="username-label" class="property-label"><g:message code="user.username.label" default="Username" /></span>
 					
-						<span class="property-value" aria-labelledby="userId-label"><g:fieldValue bean="${userInstance}" field="userId"/></span>
+						<span class="property-value" aria-labelledby="username-label"><g:fieldValue bean="${userInstance}" field="username"/></span>
 					
 				</li>
 				</g:if>
@@ -50,11 +50,47 @@
 				</li>
 				</g:if>
 			
+				<g:if test="${userInstance?.homepage}">
+				<li class="fieldcontain">
+					<span id="homepage-label" class="property-label"><g:message code="user.homepage.label" default="Homepage" /></span>
+					
+						<span class="property-value" aria-labelledby="homepage-label"><g:fieldValue bean="${userInstance}" field="homepage"/></span>
+					
+				</li>
+				</g:if>
+			
+				<g:if test="${userInstance?.accountExpired}">
+				<li class="fieldcontain">
+					<span id="accountExpired-label" class="property-label"><g:message code="user.accountExpired.label" default="Account Expired" /></span>
+					
+						<span class="property-value" aria-labelledby="accountExpired-label"><g:formatBoolean boolean="${userInstance?.accountExpired}" /></span>
+					
+				</li>
+				</g:if>
+			
+				<g:if test="${userInstance?.accountLocked}">
+				<li class="fieldcontain">
+					<span id="accountLocked-label" class="property-label"><g:message code="user.accountLocked.label" default="Account Locked" /></span>
+					
+						<span class="property-value" aria-labelledby="accountLocked-label"><g:formatBoolean boolean="${userInstance?.accountLocked}" /></span>
+					
+				</li>
+				</g:if>
+			
 				<g:if test="${userInstance?.dateCreated}">
 				<li class="fieldcontain">
 					<span id="dateCreated-label" class="property-label"><g:message code="user.dateCreated.label" default="Date Created" /></span>
 					
 						<span class="property-value" aria-labelledby="dateCreated-label"><g:formatDate date="${userInstance?.dateCreated}" /></span>
+					
+				</li>
+				</g:if>
+			
+				<g:if test="${userInstance?.enabled}">
+				<li class="fieldcontain">
+					<span id="enabled-label" class="property-label"><g:message code="user.enabled.label" default="Enabled" /></span>
+					
+						<span class="property-value" aria-labelledby="enabled-label"><g:formatBoolean boolean="${userInstance?.enabled}" /></span>
 					
 				</li>
 				</g:if>
@@ -70,11 +106,11 @@
 				</li>
 				</g:if>
 			
-				<g:if test="${userInstance?.homepage}">
+				<g:if test="${userInstance?.passwordExpired}">
 				<li class="fieldcontain">
-					<span id="homepage-label" class="property-label"><g:message code="user.homepage.label" default="Homepage" /></span>
+					<span id="passwordExpired-label" class="property-label"><g:message code="user.passwordExpired.label" default="Password Expired" /></span>
 					
-						<span class="property-value" aria-labelledby="homepage-label"><g:fieldValue bean="${userInstance}" field="homepage"/></span>
+						<span class="property-value" aria-labelledby="passwordExpired-label"><g:formatBoolean boolean="${userInstance?.passwordExpired}" /></span>
 					
 				</li>
 				</g:if>

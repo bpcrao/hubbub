@@ -21,9 +21,9 @@
 </g:hasErrors>
 <g:form action="register">
     <dl>
-        <dt>User Id</dt>
-        <dd><g:textField name="userId"
-                         value="${user?.userId}"/></dd>
+        <dt>User name</dt>
+        <dd><g:textField name="username"
+                         value="${user?.username}"/></dd>
         <dt>Password</dt>
         <dd><g:passwordField name="password"
                              value="${user?.password}"/></dd>

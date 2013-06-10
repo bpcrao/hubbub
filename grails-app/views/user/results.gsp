@@ -20,7 +20,7 @@ Found <strong>${users.size()}</strong> hits.
 </p>
 <ul>
     <g:each var="user" in="${users}">
-        <li>${user.userId}</li>
+        <li>${user.username}</li>
     </g:each>
 </ul>
 <g:link action='search'>Search Again</g:link>

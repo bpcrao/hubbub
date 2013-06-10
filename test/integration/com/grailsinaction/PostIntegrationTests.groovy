@@ -17,7 +17,7 @@ class PostIntegrationTests {
 
 	@Test
 	void testSomething() {
-		def user = new User(userId: 'joees',
+		def user = new User(username: 'joees',
 		password: 'secret',homepage: 'http://www.grailsinaction.com')
 		user.save()
 		def post1 = new Post(content: "First post... W00t!")
@@ -31,7 +31,7 @@ class PostIntegrationTests {
 	
 	@Test
 	void testPostWithTags() {
-		def user = new User(userId: 'joe', password: 'secret')
+		def user = new User(username: 'joe', password: 'secret')
 		user.save()
 		def tagGroovy = new Tag(name: 'groovy')
 		def tagGrails = new Tag(name: 'grails')
@@ -51,7 +51,7 @@ class PostIntegrationTests {
 	}
 	@Test	
 	void testAccessingPosts() {
-		def user = new User(userId: 'joe', password: 'secret',homepage: 'http://www.grailsinaction.com').save()
+		def user = new User(username: 'joe', password: 'secret',homepage: 'http://www.grailsinaction.com').save()
 		user.addToPosts(new Post(content: "First"))
 		user.addToPosts(new Post(content: "Second"))
 		user.addToPosts(new Post(content: "Third"))

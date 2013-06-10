@@ -1,0 +1,79 @@
+G:\Sonar\SONAR_RUNNER\sonar-runner-2.2.1
+Sonar Runner 2.2.1
+Java 1.7.0 Oracle Corporation (64-bit)
+Windows 7 6.1 amd64
+INFO: Runner configuration file: G:\Sonar\SONAR_RUNNER\sonar-runner-2.2.1\conf\sonar-runner.properties
+INFO: Project configuration file: C:\Users\purnachandrarao\helloworld\DemoApp\hubbub\sonar-project.properties
+INFO: Default locale: "en_US", source code encoding: "windows-1252" (analysis is platform dependent)
+INFO: Work directory: C:\Users\purnachandrarao\helloworld\DemoApp\hubbub\.sonar
+INFO: Sonar Server 3.5.1
+15:02:35.029 INFO  - Load batch settings
+15:02:35.078 INFO  - User cache: C:\Users\purnachandrarao\.sonar\cache
+15:02:35.080 INFO  - Install plugins
+15:02:35.745 INFO  - -------------  Executing Project Scan
+15:02:36.110 INFO  - Install JDBC driver
+15:02:36.112 INFO  - Apply project exclusions
+15:02:36.115 WARN  - H2 database should be used for evaluation purpose only
+15:02:36.115 INFO  - Create JDBC datasource for jdbc:h2:tcp://localhost/sonar
+15:02:36.234 INFO  - Initializing Hibernate
+15:02:37.801 INFO  - -------------  Inspecting twitter
+15:02:37.804 INFO  - Load module settings
+15:02:37.969 INFO  - Quality profile : [name=Sonar way,language=grvy]
+15:02:37.981 INFO  - Excluded tests: 
+15:02:37.981 INFO  -   **/package-info.java
+15:02:38.001 INFO  - Configure Maven plugins
+15:02:38.029 INFO  - Compare to previous analysis (2013-06-07)
+15:02:38.042 INFO  - Compare over 5 days (2013-06-02, analysis of 2013-06-07 13:46:36.345)
+15:02:38.047 INFO  - Compare over 30 days (2013-05-08, analysis of 2013-06-07 13:46:36.345)
+15:02:38.095 INFO  - Base dir: C:\Users\purnachandrarao\helloworld\DemoApp\hubbub
+15:02:38.095 INFO  - Working dir: C:\Users\purnachandrarao\helloworld\DemoApp\hubbub\.sonar
+15:02:38.095 INFO  - Source dirs: C:\Users\purnachandrarao\helloworld\DemoApp\hubbub\grails-app
+15:02:38.095 INFO  - Test dirs: C:\Users\purnachandrarao\helloworld\DemoApp\hubbub\test
+15:02:38.095 INFO  - Source encoding: windows-1252, default locale: en_US
+15:02:38.134 INFO  - Sensor GroovySourceImporter...
+15:02:38.265 INFO  - Sensor GroovySourceImporter done: 130 ms
+15:02:38.265 INFO  - Sensor CodeNarc...
+15:02:38.265 INFO  - Executing CodeNarc
+15:02:38.599 INFO  - Loaded properties file in 30ms; 286 rules
+15:02:38.632 INFO  - Loading ruleset from [file:C:\Users\purnachandrarao\helloworld\DemoApp\hubbub\.sonar\codenarc\profile.xml]
+15:02:38.966 INFO  - RuleSet configuration properties file [codenarc.properties] not found.
+15:02:39.986 INFO  - No custom message bundle found for [codenarc-messages]. Using default messages.
+15:02:40.283 INFO  - Report file [C:\Users\purnachandrarao\helloworld\DemoApp\hubbub\.sonar\codenarc\report1.xml] created.
+15:02:40.283 INFO  - CodeNarc completed: (p1=0; p2=2; p3=0) 1425ms
+CodeNarc completed: (p1=0; p2=2; p3=0) 1425ms
+15:02:40.342 INFO  - Sensor CodeNarc done: 2077 ms
+15:02:40.343 INFO  - Sensor GroovySensor...
+15:02:40.703 INFO  - GMetrics completed: 278ms
+15:02:40.715 INFO  - Sensor GroovySensor done: 372 ms
+15:02:40.715 INFO  - Sensor Groovy SurefireSensor...
+15:02:40.716 INFO  - parsing C:\Users\purnachandrarao\helloworld\DemoApp\hubbub\.sonar\build\surefire-reports
+15:02:40.716 INFO  - Sensor Groovy SurefireSensor done: 1 ms
+15:02:40.716 INFO  - Sensor CpdSensor...
+15:02:40.716 INFO  - SonarBridgeEngine is used
+15:02:40.726 INFO  - Cross-project analysis disabled
+15:02:40.778 INFO  - Sensor CpdSensor done: 62 ms
+15:02:40.778 INFO  - Sensor ProfileSensor...
+15:02:40.815 INFO  - Sensor ProfileSensor done: 37 ms
+15:02:40.815 INFO  - Sensor ProfileEventsSensor...
+15:02:40.829 INFO  - Sensor ProfileEventsSensor done: 14 ms
+15:02:40.829 INFO  - Sensor ProjectLinksSensor...
+15:02:40.833 INFO  - Sensor ProjectLinksSensor done: 4 ms
+15:02:40.833 INFO  - Sensor VersionEventsSensor...
+15:02:40.839 INFO  - Sensor VersionEventsSensor done: 6 ms
+15:02:41.068 INFO  - Execute decorators...
+15:02:41.759 INFO  - Persist graphs of components
+15:02:41.848 INFO  - ANALYSIS SUCCESSFUL, you can browse http://localhost:9000
+15:02:41.849 INFO  - Executing post-job class org.sonar.plugins.core.batch.IndexProjectPostJob
+15:02:41.901 INFO  - Executing post-job class org.sonar.plugins.dbcleaner.ProjectPurgePostJob
+15:02:41.930 INFO  - -> Keep one snapshot per day between 2013-05-10 and 2013-06-06
+15:02:41.932 INFO  - -> Keep one snapshot per week between 2012-06-08 and 2013-05-10
+15:02:41.932 INFO  - -> Keep one snapshot per month between 2008-06-13 and 2012-06-08
+15:02:41.933 INFO  - -> Delete data prior to: 2008-06-13
+15:02:41.935 INFO  - -> Clean twitter [id=279]
+15:02:41.945 INFO  - <- Clean snapshot 439
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+Total time: 7.775s
+Final Memory: 29M/253M
+INFO: ------------------------------------------------------------------------

@@ -2,20 +2,20 @@
 
 
 
-<div class="fieldcontain ${hasErrors(bean: userInstance, field: 'userId', 'error')} ">
-	<label for="userId">
-		<g:message code="user.userId.label" default="User Id" />
-		
+<div class="fieldcontain ${hasErrors(bean: userInstance, field: 'username', 'error')} required">
+	<label for="username">
+		<g:message code="user.username.label" default="Username" />
+		<span class="required-indicator">*</span>
 	</label>
-	<g:textField name="userId" maxlength="20" value="${userInstance?.userId}"/>
+	<g:textField name="username" maxlength="20" required="" value="${userInstance?.username}"/>
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: userInstance, field: 'password', 'error')} ">
+<div class="fieldcontain ${hasErrors(bean: userInstance, field: 'password', 'error')} required">
 	<label for="password">
 		<g:message code="user.password.label" default="Password" />
-		
+		<span class="required-indicator">*</span>
 	</label>
-	<g:textField name="password" maxlength="10" value="${userInstance?.password}"/>
+	<g:textField name="password" maxlength="10" required="" value="${userInstance?.password}"/>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: userInstance, field: 'profile', 'error')} ">
@@ -26,6 +26,38 @@
 	<g:select id="profile" name="profile.id" from="${com.grailsinaction.Profile.list()}" optionKey="id" value="${userInstance?.profile?.id}" class="many-to-one" noSelection="['null': '']"/>
 </div>
 
+<div class="fieldcontain ${hasErrors(bean: userInstance, field: 'homepage', 'error')} ">
+	<label for="homepage">
+		<g:message code="user.homepage.label" default="Homepage" />
+		
+	</label>
+	<g:textField name="homepage" value="${userInstance?.homepage}"/>
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: userInstance, field: 'accountExpired', 'error')} ">
+	<label for="accountExpired">
+		<g:message code="user.accountExpired.label" default="Account Expired" />
+		
+	</label>
+	<g:checkBox name="accountExpired" value="${userInstance?.accountExpired}" />
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: userInstance, field: 'accountLocked', 'error')} ">
+	<label for="accountLocked">
+		<g:message code="user.accountLocked.label" default="Account Locked" />
+		
+	</label>
+	<g:checkBox name="accountLocked" value="${userInstance?.accountLocked}" />
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: userInstance, field: 'enabled', 'error')} ">
+	<label for="enabled">
+		<g:message code="user.enabled.label" default="Enabled" />
+		
+	</label>
+	<g:checkBox name="enabled" value="${userInstance?.enabled}" />
+</div>
+
 <div class="fieldcontain ${hasErrors(bean: userInstance, field: 'following', 'error')} ">
 	<label for="following">
 		<g:message code="user.following.label" default="Following" />
@@ -34,12 +66,12 @@
 	<g:select name="following" from="${com.grailsinaction.User.list()}" multiple="multiple" optionKey="id" size="5" value="${userInstance?.following*.id}" class="many-to-many"/>
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: userInstance, field: 'homepage', 'error')} ">
-	<label for="homepage">
-		<g:message code="user.homepage.label" default="Homepage" />
+<div class="fieldcontain ${hasErrors(bean: userInstance, field: 'passwordExpired', 'error')} ">
+	<label for="passwordExpired">
+		<g:message code="user.passwordExpired.label" default="Password Expired" />
 		
 	</label>
-	<g:textField name="homepage" value="${userInstance?.homepage}"/>
+	<g:checkBox name="passwordExpired" value="${userInstance?.passwordExpired}" />
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: userInstance, field: 'posts', 'error')} ">

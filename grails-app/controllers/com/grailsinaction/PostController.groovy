@@ -3,25 +3,26 @@ package com.grailsinaction
 class PostController {
     def scaffold = true
     def postService
-
+    def springSecurityService
     def timeline = {
-        def user = User.findByUserId(params.id)
-        render(view: "timeline", model: [ user: user ])
+        def user = User.get(springSecurityService.principal.id)
+        render(view: "timeline", model: [user: user])
     }
 
-    def addPost={
+    def addPost = {
 
-        try{
-        def post = postService.createPost(params.id,params.content)
-            flash.message="Successfully posted"
+        try {
+            def post = postService.createPost(params.id, params.content)
+            flash.message = "Successfully posted"
         }
-        catch(PostException e){
-            flash.message=e.getMessage()
+        catch (PostException e) {
+            flash.message = e.getMessage()
         }
-         redirect(action: 'timeline', id: params.id)
+        redirect(action: 'timeline', id: params.id)
     }
 
     static navigation = [
-            [group:'tabs', action:'timeline', title: 'My Timeline', order: 0],
+            [group: 'tabs', action: 'timeline', title: 'My Timeline', order: 0],
+
     ]
 }

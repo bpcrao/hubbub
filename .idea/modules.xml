@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Hubbub.iml" filepath="$PROJECT_DIR$/Hubbub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hubbub-grailsPlugins.iml" filepath="$PROJECT_DIR$/Hubbub-grailsPlugins.iml" />
     </modules>
   </component>
 </project>

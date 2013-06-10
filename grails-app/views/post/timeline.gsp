@@ -1,23 +1,23 @@
 <html>
 <head>
     <title>
-        Timeline for ${user.profile.fullName}
+        Timeline for ${user.profile==null?user.username:user.profile.fullName }
     </title>
     <meta name="layout" content="main"/>
-    <g:if test="${user.profile.skin}">
+    <g:if test="${user.profile?.skin}">
         <link rel="stylesheet" href="
         <g:createLinkTo dir='css'
-                        file='${user.profile.skin}.css'/>
+                        file='${user.profile?.skin}.css'/>
         "/>
     </g:if>
 </head>
 <body>
 <div id="newPost">
     <h3>
-        What is ${user.profile.fullName} working on right now?
+        What is ${user.profile?.fullName} working on right now?
     </h3>
     <p>
-        <g:form action="addPost" id="${params.id}">
+        <g:form action="addPost" id="${user.username}">
             <g:textArea id='postContent' name="content"
                         rows="20" cols="100"/><br/>
             <g:submitButton name="post" value="Post"/>
@@ -31,7 +31,7 @@
     </div>
 </g:if>
 
-<h1>Timeline for ${user.profile.fullName}</h1>
+<h1>Timeline for ${user.profile?.fullName}</h1>
 <br>
 <div class="allPosts">
     <g:each in ="${user.posts}" var="post">

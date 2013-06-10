@@ -10,7 +10,7 @@ class PostService {
     boolean transactional = true
 
     Post createPost(String userId, String content) {
-        def user = User.findByUserId(userId)
+        def user = User.findByUsername(userId)
         if (user) {
             def post = new Post(content: content)
             user.addToPosts(post)

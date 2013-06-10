@@ -23,6 +23,6 @@ Found <strong>${profiles.size()}</strong> hits.
         <li>${profile.fullName}</li>
     </g:each>
 </ul>
-<g:link action='search'>Search Again</g:link>
+<g:link action='advsearch'>Search Again</g:link>
 </body>
 </html>

@@ -77,6 +77,12 @@ log4j = {
     //    console name:'stdout', layout:pattern(conversionPattern: '%c{2} %m%n')
     //}
 
+    root {
+        warn 'stdout'
+        // warn 'stdout','file'
+        additivity = true
+    }
+
     error  'org.codehaus.groovy.grails.web.servlet',        // controllers
            'org.codehaus.groovy.grails.web.pages',          // GSP
            'org.codehaus.groovy.grails.web.sitemesh',       // layouts
@@ -89,3 +95,8 @@ log4j = {
            'org.hibernate',
            'net.sf.ehcache.hibernate'
 }
+
+// Added by the Spring Security Core plugin:
+grails.plugins.springsecurity.userLookup.userDomainClassName = 'com.grailsinaction.User'
+grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'com.grailsinaction.UserRole'
+grails.plugins.springsecurity.authority.className = 'com.grailsinaction.Role'

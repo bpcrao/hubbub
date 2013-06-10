@@ -17,17 +17,17 @@ class UserIntegrationTests {
 
     @Test
     void testSaveUser() {
-        def user = new User(userId: 'joe', password: 'secret',
+        def user = new User(username: 'joe', password: 'secret',
                 homepage: 'http://www.grailsinaction.com')
         assertNotNull user.save()
         assertNotNull user.id
         def foundUser = User.get(user.id)
-        assertEquals 'joe', foundUser.userId
+        assertEquals 'joe', foundUser.username
     }
 
     @Test
     void testSaveAndUpdate() {
-        def user = new User(userId: 'joe', password: 'secret',
+        def user = new User(username: 'joe', password: 'secret',
                 homepage: 'http://www.grailsinaction.com')
         assertNotNull user.save()
         def foundUser = User.get(user.id)
@@ -40,7 +40,7 @@ class UserIntegrationTests {
 
     @Test
     void testSaveAndDelete() {
-        def user = new User(userId: 'joe', password: 'secret',
+        def user = new User(username: 'joe', password: 'secret',
                 homepage: 'http://www.grailsinaction.com')
         assertNotNull user.save()
         def foundUser = User.get(user.id)
@@ -50,7 +50,7 @@ class UserIntegrationTests {
 
     @Test
     void testValidation() {
-        def user = new User(userId: 'jo', password: 'secret',
+        def user = new User(username: 'jo', password: 'secret',
                 homepage: 'http://www.grailsinaction.com')
         assertFalse user.validate()
         assertTrue user.hasErrors()
@@ -59,7 +59,7 @@ class UserIntegrationTests {
 
     @Test
     void testUseridPasswordNotSame() {
-        def user = new User(userId: 'joees', password: 'joees',
+        def user = new User(username: 'joees', password: 'joees',
                 homepage: 'http://www.grailsinaction.com')
         assertFalse user.validate()
         assertTrue user.hasErrors()

@@ -1,3 +1,4 @@
+
 <%@ page import="com.grailsinaction.User" %>
 <!DOCTYPE html>
 <html>
@@ -23,15 +24,17 @@
 				<thead>
 					<tr>
 					
-						<g:sortableColumn property="userId" title="${message(code: 'user.userId.label', default: 'User Id')}" />
+						<g:sortableColumn property="username" title="${message(code: 'user.username.label', default: 'Username')}" />
 					
 						<g:sortableColumn property="password" title="${message(code: 'user.password.label', default: 'Password')}" />
 					
 						<th><g:message code="user.profile.label" default="Profile" /></th>
 					
-						<g:sortableColumn property="dateCreated" title="${message(code: 'user.dateCreated.label', default: 'Date Created')}" />
-					
 						<g:sortableColumn property="homepage" title="${message(code: 'user.homepage.label', default: 'Homepage')}" />
+					
+						<g:sortableColumn property="accountExpired" title="${message(code: 'user.accountExpired.label', default: 'Account Expired')}" />
+					
+						<g:sortableColumn property="accountLocked" title="${message(code: 'user.accountLocked.label', default: 'Account Locked')}" />
 					
 					</tr>
 				</thead>
@@ -39,15 +42,17 @@
 				<g:each in="${userInstanceList}" status="i" var="userInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
-						<td><g:link action="show" id="${userInstance.id}">${fieldValue(bean: userInstance, field: "userId")}</g:link></td>
+						<td><g:link action="show" id="${userInstance.id}">${fieldValue(bean: userInstance, field: "username")}</g:link></td>
 					
 						<td>${fieldValue(bean: userInstance, field: "password")}</td>
 					
 						<td>${fieldValue(bean: userInstance, field: "profile")}</td>
 					
-						<td><g:formatDate date="${userInstance.dateCreated}" /></td>
-					
 						<td>${fieldValue(bean: userInstance, field: "homepage")}</td>
+					
+						<td><g:formatBoolean boolean="${userInstance.accountExpired}" /></td>
+					
+						<td><g:formatBoolean boolean="${userInstance.accountLocked}" /></td>
 					
 					</tr>
 				</g:each>

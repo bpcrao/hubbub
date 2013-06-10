@@ -16,7 +16,7 @@
     <%  def profile = user.profile %>
     <g:if test="${profile.photo}">
         <img src=" <g:createLink controller='image'
-              action='renderImage' id="${user.userId}"/>
+              action='renderImage' id="${user.username}"/>
         "/>
     </g:if>
     <p>Profile for <strong>${profile.fullName}</strong></p>
