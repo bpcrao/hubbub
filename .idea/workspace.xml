@@ -2,50 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5f56788-b216-40ce-9e99-80fb5c28fcca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hubbub-grailsPlugins.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/shop/displayProduct.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/shop/displayProducts.gsp" />
-      <change type="DELETED" beforePath="C:\Users\purnachandrarao\helloworld\DemoApp\hubbub\out\production\Hubbub\com\grailsinaction\User$__clinit__closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\purnachandrarao\helloworld\DemoApp\hubbub\out\production\Hubbub\com\grailsinaction\User$__clinit__closure1_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\purnachandrarao\helloworld\DemoApp\hubbub\out\production\Hubbub\com\grailsinaction\UserController$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\purnachandrarao\helloworld\DemoApp\hubbub\out\production\Hubbub\com\grailsinaction\UserController$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\purnachandrarao\helloworld\DemoApp\hubbub\target\classes\BuildConfig$_run_closure1_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\purnachandrarao\helloworld\DemoApp\hubbub\target\classes\BuildConfig$_run_closure1_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\purnachandrarao\helloworld\DemoApp\hubbub\target\classes\BuildConfig$_run_closure1_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\purnachandrarao\helloworld\DemoApp\hubbub\target\classes\BuildConfig$_run_closure1_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\purnachandrarao\helloworld\DemoApp\hubbub\target\classes\com\grailsinaction\User$__clinit__closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\purnachandrarao\helloworld\DemoApp\hubbub\target\classes\com\grailsinaction\User$__clinit__closure1_closure3.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devDb.h2.db" afterPath="$PROJECT_DIR$/devDb.h2.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devDb.trace.db" afterPath="$PROJECT_DIR$/devDb.trace.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hubbub-grailsPlugins.iml" afterPath="$PROJECT_DIR$/Hubbub-grailsPlugins.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hubbub.iml" afterPath="$PROJECT_DIR$/Hubbub.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devDb.lock.db" afterPath="$PROJECT_DIR$/devDb.lock.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/com/grailsinaction/ImageController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/com/grailsinaction/ImageController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/com/grailsinaction/PostController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/com/grailsinaction/PostController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/com/grailsinaction/UserController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/com/grailsinaction/UserController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/com/grailsinaction/User.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/com/grailsinaction/User.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/com/grailsinaction/PostService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/com/grailsinaction/PostService.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/image/form.gsp" afterPath="$PROJECT_DIR$/grails-app/views/image/form.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/post/timeline.gsp" afterPath="$PROJECT_DIR$/grails-app/views/post/timeline.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/profile/results.gsp" afterPath="$PROJECT_DIR$/grails-app/views/profile/results.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/user/_form.gsp" afterPath="$PROJECT_DIR$/grails-app/views/user/_form.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/user/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/user/list.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/user/profile.gsp" afterPath="$PROJECT_DIR$/grails-app/views/user/profile.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/user/register.gsp" afterPath="$PROJECT_DIR$/grails-app/views/user/register.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/user/results.gsp" afterPath="$PROJECT_DIR$/grails-app/views/user/results.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/user/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/user/show.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/TESTS-TestSuites.xml" afterPath="$PROJECT_DIR$/target/test-reports/TESTS-TestSuites.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/com/grailsinaction/PostIntegrationTests.groovy" afterPath="$PROJECT_DIR$/test/integration/com/grailsinaction/PostIntegrationTests.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/com/grailsinaction/UserIntegrationTests.groovy" afterPath="$PROJECT_DIR$/test/integration/com/grailsinaction/UserIntegrationTests.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/hubbub/QueryIntegrationTests.groovy" afterPath="$PROJECT_DIR$/test/integration/hubbub/QueryIntegrationTests.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/com/grailsinaction/UserControllerTests.groovy" afterPath="$PROJECT_DIR$/test/unit/com/grailsinaction/UserControllerTests.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/com/grailsinaction/UserTests.groovy" afterPath="$PROJECT_DIR$/test/unit/com/grailsinaction/UserTests.groovy" />
     </list>
     <ignored path="hubbub.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -163,57 +128,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserController.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/grailsinaction/UserController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="4" selection-start="4259" selection-end="4407" vertical-scroll-proportion="-12.913043">
-              <folding>
-                <element signature="e#28#90#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="timeline.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/post/timeline.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="35" selection-start="231" selection-end="235" vertical-scroll-proportion="-2.4285715">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/image/form.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="26" selection-start="400" selection-end="400" vertical-scroll-proportion="-6.244898">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Config.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostController.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PostController.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/grailsinaction/PostController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="63" selection-start="154" selection-end="209" vertical-scroll-proportion="-5.173913">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostService.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/services/com/grailsinaction/PostService.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="38" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
+            <state line="24" column="23" selection-start="613" selection-end="613" vertical-scroll-proportion="0.5284974">
               <folding />
             </state>
           </provider>
@@ -228,10 +146,67 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.gsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="view.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/image/view.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="6" selection-start="156" selection-end="156" vertical-scroll-proportion="0.21656051">
+            <state line="6" column="6" selection-start="156" selection-end="156" vertical-scroll-proportion="-1.3783784">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UrlMappings.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="42" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostRestController.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/grailsinaction/PostRestController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="12" selection-start="135" selection-end="135" vertical-scroll-proportion="-5.9130435">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resources.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/spring/resources.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reply.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/grailsinaction/Reply.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="5" selection-start="108" selection-end="109" vertical-scroll-proportion="-3.1627908">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataSource.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="11" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostService.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/services/com/grailsinaction/PostService.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="29" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -249,15 +224,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="29" selection-start="546" selection-end="546" vertical-scroll-proportion="-10.461538">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -271,22 +237,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/com/grailsinaction/ShopController.groovy" />
-        <option value="$PROJECT_DIR$/application.properties" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/grailsinaction/UserRole.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/grailsinaction/User.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/com/grailsinaction/PostController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/profile/results.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/user/register.gsp" />
         <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/grailsinaction/UserController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/services/com/grailsinaction/PostService.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/post/timeline.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/image/form.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/grailsinaction/ImageController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/com/grailsinaction/PostRestController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/com/grailsinaction/Reply.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/services/com/grailsinaction/PostService.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/com/grailsinaction/PostController.groovy" />
       </list>
     </option>
   </component>
@@ -310,7 +276,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -321,15 +287,32 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hubbub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_directory_selection" value="$PROJECT_DIR$/grails-app/controllers/com/grailsinaction" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="RESOURCE_BUNDLE_SPLITTER_PROPORTION" value="0.5" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.VCSs.Git" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -344,8 +327,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\purnachandrarao\helloworld\DemoApp\hubbub\grails-app\views\profile" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.grailsinaction" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserIntegrationTests.testSaveUser">
+  <component name="RunManager" selected="Grails.Grails:hubbub">
     <configuration default="false" name="UserTests.testConstraints" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -642,8 +628,8 @@
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297619" sideWeight="0.49756888" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.6702381" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297619" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.67261904" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297619" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297619" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -652,9 +638,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.083333336" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24918832" sideWeight="0.23690476" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24918832" sideWeight="0.67261904" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32738096" sideWeight="0.49675852" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32738096" sideWeight="0.49675852" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.67142856" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -720,43 +706,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/views/user/register.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="21" selection-start="517" selection-end="517" vertical-scroll-proportion="0.09766454">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/profile/results.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="25" selection-start="572" selection-end="572" vertical-scroll-proportion="0.7112526">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/profile/advsearch.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="33" selection-start="480" selection-end="480" vertical-scroll-proportion="0.6857749">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="47" selection-start="409" selection-end="430" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -767,13 +716,6 @@
     <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/services/com/grailsinaction/PostService.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="38" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -808,13 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/grailsinaction/PostController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="63" selection-start="154" selection-end="209" vertical-scroll-proportion="-5.173913">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/grailsinaction/User.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="27" selection-start="857" selection-end="857" vertical-scroll-proportion="-13.83721">
@@ -834,7 +769,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/image/view.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="6" selection-start="156" selection-end="156" vertical-scroll-proportion="0.21656051">
+        <state line="6" column="6" selection-start="156" selection-end="156" vertical-scroll-proportion="-1.3783784">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="42" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/grailsinaction/PostRestController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="12" selection-start="135" selection-end="135" vertical-scroll-proportion="-5.9130435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/spring/resources.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/grailsinaction/Reply.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="5" selection-start="108" selection-end="109" vertical-scroll-proportion="-3.1627908">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="11" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/services/com/grailsinaction/PostService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="29" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/grailsinaction/PostController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="23" selection-start="613" selection-end="613" vertical-scroll-proportion="0.5284974">
           <folding />
         </state>
       </provider>
@@ -866,6 +853,93 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>grails-2.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hubbub-grailsPlugins</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

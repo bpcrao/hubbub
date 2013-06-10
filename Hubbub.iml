@@ -19,7 +19,9 @@
     </facet>
     <facet type="hibernate" name="Hibernate">
       <configuration>
-        <datasource-map />
+        <datasource-map>
+          <unit-entry name="Gorm" />
+        </datasource-map>
       </configuration>
     </facet>
   </component>
@@ -57,6 +59,7 @@
     </orderEntry>
     <orderEntry type="library" name="grails-2.2.0" level="application" />
     <orderEntry type="module" module-name="Hubbub-grailsPlugins" />
+    <orderEntry type="library" name="grails-2.2" level="application" />
   </component>
 </module>
 
