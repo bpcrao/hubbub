@@ -1,2 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites />
+<testsuites>
+  <testsuite errors="1" failures="0" hostname="purnachandra-b" id="0" name="JabberServiceIntegrationTests" package="com.grailsinaction" tests="1" time="0.201" timestamp="2013-06-11T07:48:05">
+      <properties />
+
+      <testcase classname="com.grailsinaction.JabberServiceIntegrationTests" name="testWriteToQueue2" time="0.189">
+          <error message="Cannot invoke method sendQueueJMSMessage() on null object" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke method sendQueueJMSMessage() on null object
+	at com.grailsinaction.JabberService$$EO8RDMgx.sendMessage(JabberService.groovy:12)
+	at com.grailsinaction.JabberServiceIntegrationTests.testWriteToQueue2(JabberServiceIntegrationTests.groovy:25)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testWriteToQueue2--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testWriteToQueue2--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

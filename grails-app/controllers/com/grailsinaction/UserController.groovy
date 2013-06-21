@@ -109,7 +109,7 @@ class UserController {
         return [ users: users, term : params.userId ]
     }
 
-@Secured(['ROLE_ADMIN'])
+//@Secured(['ROLE_ADMIN'])
     def register = {
         if(params){
             def user = new User(params)
